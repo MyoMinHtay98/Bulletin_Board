@@ -21,7 +21,7 @@
                 </label>
               </div>
               <div class="row">
-                <label class="col-md-3 text-md-left">{{ __('Type') }}</label>
+                <label class="col-md-3 text-md-left">{{ __('Role') }}</label>
                 @if($user->role == '0')
                 <label class="col-md-9 text-md-left">
                   <i class="profile-text">User</i>

@@ -32,7 +32,7 @@
                             <th class="text-center">Name</th>
                             <th class="text-center">Email</th>
                             <th class="text-center">Gender</th>
-                            <th class="text-center">Active Status</th>
+                            <th class="text-center">Role</th>
                             <th class="text-center">Date of Birth</th>
                             <th class="text-center">Age</th>
                             <th class="text-center">Address</th>
