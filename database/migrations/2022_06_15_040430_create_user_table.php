@@ -20,7 +20,7 @@ class CreateUserTable extends Migration
             $table->string('password', 100);
             $table->string('file_path',100);
             $table->string('gender', 1);
-            $table->boolean('role', 1);
+            $table->char('role', 0)->default(0);
             $table->date('dob');
             $table->integer('age');
             $table->string('hobby',50);

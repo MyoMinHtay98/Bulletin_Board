@@ -19,7 +19,6 @@ class UserFactory extends Factory
             'password' => bcrypt('12345678'),
             'file_path' => $this->faker->image('public/images',640,480, null, false),
             'gender' => $this->faker->randomElement(['m', 'f']),
-            'role' => $this->faker->boolean(80),
             'dob' => $this->faker->date(),
             'age' => mt_rand(20, 40),
             'hobby' => $this->faker->realText($maxNbChars = 50, $indexSize = 2),
